@@ -1,5 +1,7 @@
 package com.deepak.sample.kafka.producer;
 
+import com.deepak.sample.kafka.model.User;
+import com.deepak.sample.kafka.utils.Utils;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -26,10 +28,13 @@ public class SampleJsonProducer {
         log.info("producer created");
         // we are going to test different scenarios to illustrate the join
 
-        ProducerRecord<String, String> record= new ProducerRecord<>("string_topic", "Hello World String");
+        User user1 = User.builder().firstName("Jay").lastName("Nevas").build();
+        Utils.getJsonAsString(user1);
+
+        ProducerRecord<String, String> record = new ProducerRecord<>("string_topic", Utils.getJsonAsString(user1));
         producer.send(record);
 
-        log.info("message published to topic :"+ record.topic());
+        log.info("message published to topic :" + record.topic());
 
         //Flush and close the producer
         producer.flush();
