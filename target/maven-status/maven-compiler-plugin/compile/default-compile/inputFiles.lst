@@ -1,0 +1,8 @@
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\utils\Utils.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\producer\SampleJsonProducer.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\consumer\SampleAvroConsumer.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\model\User.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\target\generated\avro\com\deepak\sample\kafka\avro\model\Student.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\serialiser\AvroDeserializer.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\serialiser\AvroSerializer.java
+C:\Deepak-work\deepak-git-repos\sample-kafka-avro-application\src\main\java\com\deepak\sample\kafka\producer\SampleAvroProducer.java

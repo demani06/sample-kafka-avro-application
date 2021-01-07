@@ -2,4 +2,6 @@
 
 Create topics
 
-.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic string_topic
+./kafka-topics.bat --create --topic string_topic --bootstrap-server localhost:9092
+
+./kafka-topics.bat --create --topic avro_topic --bootstrap-server localhost:9092

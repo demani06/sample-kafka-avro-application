@@ -1,0 +1,11 @@
+com\deepak\sample\kafka\avro\model\Student.class
+com\deepak\sample\kafka\avro\model\Student$1.class
+com\deepak\sample\kafka\producer\SampleAvroProducer.class
+com\deepak\sample\kafka\avro\model\Student$Builder.class
+com\deepak\sample\kafka\serialiser\AvroSerializer.class
+com\deepak\sample\kafka\producer\SampleJsonProducer.class
+com\deepak\sample\kafka\serialiser\AvroDeserializer.class
+com\deepak\sample\kafka\model\User.class
+com\deepak\sample\kafka\model\User$UserBuilder.class
+com\deepak\sample\kafka\consumer\SampleAvroConsumer.class
+com\deepak\sample\kafka\utils\Utils.class
