@@ -1,0 +1,1 @@
+# sample-kafka-avro-application
